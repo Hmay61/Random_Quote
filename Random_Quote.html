@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Random Quote Machine</title>
+		<!--img link-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+		<!--get the special font-->
+		<link href="https://fonts.googleapis.com/css?family=Tangerine|Baloo+Tamma|Dosis" rel="stylesheet" type="text/css">
+		<link href="Random_Quote.css" rel="stylesheet" type="text/css">
+		<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+		<!--jquery-->
+		<script type="text/javascript" src="jquery-1.11.3.js"></script>
+		<!--in order to change the color-->
+		<script type="text/javascript" src="http://code.jquery.com/color/jquery.color-2.1.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		<script type="text/javascript" src="RandomQuote.js"></script>
+	</head>
+
+	<body id="b1">
+		<div class="introduce">
+			<h2>Random Quote Machine</h2>
+			<h4>There are some of my favourite qutotes.I hope you enjoy them.</h4>
+		</div><!--end of introduce-->
+
+		<div class="quoteBox">
+
+			<div class="quoteText">
+				<span id="text"></span>
+			</div><!--end of quote-text-->
+
+			<div class="quoteAuthor">
+				<span id="author"></span>
+			</div><!-- end of quote-author-->
+
+			<div class="buttons">
+				 <button class="button" type="button" id="wikiAuthor" title="View the author on Wikipedia"><a id="a1" target="_blank"><i class="fa fa-wikipedia-w"></i></a></button>
+				 <button class="button" type="button" id="twitterQuote" title="Tweet this quote"><a id="a2" target="_blank"><i class="fa fa-twitter"></i></a></button>
+				 <button class="button" type="button" id="newQuote">Generate New Quote.</a>
+			</div><!--end of three buttons-->
+
+		</div><!--end of quote-box-->
+
+		<div class="footer">
+			<h4>By <a href="https://codepen.io/may61he/" target="_blank">Yue He</a></h4>
+		</div>
+
+	</body>
+</html>
+
+

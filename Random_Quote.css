@@ -1,0 +1,76 @@
+.introduce{
+	text-align:center;
+  font-family: 'Tangerine', serif;
+  font-size: 25pt;
+  color:white;
+}
+
+.quoteBox {
+  text-align: center;
+  border:1px solid white;
+  border-radius: 80px;
+  background-color: white;
+  width:600px;
+  margin:40px auto auto auto;
+  padding: 10px 10px 10px 10px;    /*top right bottom left*/
+  display: table;   /*  Let the element behave like a <table> element*/
+}
+
+.quoteText {
+  text-align: center;
+  width:600px;
+  height:auto;
+  font-family: 'Dosis',sans-serif;
+  font-size: 35px;
+}
+
+.quoteAuthor {
+  text-align: right;
+  padding-top: 20px;
+  padding-right:20px;
+  font-family: 'Baloo+Tamma',cursive;
+}
+
+.button {
+   border-radius:3px;
+   color:#fff;
+   background-color:#333;
+   border:none;
+   height: 40px;
+   font-size:15px;
+   margin-top: 20px;
+   opacity:1;
+   cursor:pointer; 
+   display:block;
+}
+.button:hover {
+  opacity: 0.8;
+}
+
+a:visited{
+  color:white;
+}
+a:active{
+  color:white;
+}
+
+#wikiAuthor,#twitterQuote {
+  width:40px;
+  float:left;
+  margin-left: 50px;
+  text-align: center;
+}
+#newQuote {
+  float:right;
+  margin-right: 50px;
+}
+
+.footer{
+	text-align:center;
+  color:white;
+  display:block;  /*  Displays an element as a block element (like <p>)*/
+}
+.footer a {
+  text-decoration: none;
+  color:white;
+}
